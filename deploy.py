@@ -6,7 +6,7 @@ import os
 # load_dotenv()
 # openai.api_key = os.getenv('openai_key')
 
-openai.api_key = st.secrets('openai_key')
+openai.api_key = st.secrets['openai_key']
 
 
 def generate(prompt):
